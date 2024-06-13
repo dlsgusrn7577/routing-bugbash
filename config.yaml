@@ -27,4 +27,5 @@ authentication:
   policyName: first-auth
   includePaths:
     - /red # red is locked down
-
+serving:
+  reverseProxyPrefix: reverseproxy.com/path
